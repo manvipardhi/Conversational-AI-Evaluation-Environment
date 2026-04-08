@@ -1,0 +1,11 @@
+name: genai-customer-support-env
+description: GenAI powered support evaluation
+
+tasks:
+  - easy
+  - medium
+  - hard
+
+observation_space: text
+action_space: text
+reward_range: [0,1]
